@@ -14,7 +14,7 @@ server = 'mail.newtouch.cn'
 try:
     s = smtplib.SMTP(server)
     try:
-        s.login('weifeng.chen', "password1!")
+        s.login('yourname', "yourpass")
     except (smtplib.SMTPException) as e:
         print('Auth fail')
     print("Auth Succ")
